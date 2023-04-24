@@ -1,4 +1,145 @@
-header{
-    background-color: rgb(158, 28, 28);
-    color: rgb(204, 204, 204);
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.cabecalho{
+    background-color: rgb(8, 21, 94);
+    color: rgb(206, 187, 187);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px 0;
+    margin: 1px  0;
+}
+
+.cabecalho2{
+    background-color: rgb(129, 6, 6);
+    color: rgb(206, 187, 187);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px 0;
+    margin: 1px  0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+    margin: 0% 1px;
+
+}  
+
+.cabecalho-imagem2{
+    width: 3%;
+    margin: 0%  10px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0  130px;
+    font-size: 20px;
+}
+
+.cabecalho-lista-item2 {
+    display: inline-block;
+    margin: 0%  200px;  
+    font-size: 17px;
+
+}
+
+.cabecalho-lista-item3{
+    display: inline-block;
+    margin: 0%  100px;  
+    font-size: 17px;
+
+}
+
+.cabecalho-lista-item4{
+    display: inline-block;
+    margin: 0%  200px;  
+    font-size: 25px;
+}
+
+.escola-imagem{
+    width: 60%;
+    justify-content: center;
+}
+
+.escola{
+display: flex;
+justify-content: center;
+padding: 90px  0;
+  background-color: rgb(196, 166, 166);
+}
+
+.escolatitulo {
+    background-color: rgb(196, 166, 166);
+    color: rgb(88, 17, 17);
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.escolatexto1 {
+    width: 40%;
+    background-color: rgb(179, 184, 206); 
+    box-shadow: 0cm 10px;
+    color: rgb(4, 4, 41);
+    text-align: center;
+}
+
+.IDEAIS{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 90px  0;
+    background-color: rgb(236, 174, 174)
+    
+}
+
+.ideaistodos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20% ;
+
+}
+
+.tituloacolhimento {
+    width: 100%;
+    box-shadow: 0cm 5px;
+    background-color: rgb(179, 184, 206); 
+    color: rgb(4, 4, 41);
+    text-align: center;
+}
+
+.titulocomprometimento {
+    width: 100%;
+    box-shadow: 0cm 5px;
+    background-color: rgb(179, 184, 206); 
+    color: rgb(4, 4, 41);
+    text-align: center;
+}
+
+.titulotecnologia {
+    width: 100%;
+    box-shadow: 0cm 5px;
+    background-color: rgb(179, 184, 206); 
+    color: rgb(4, 4, 41);
+    text-align: center;
+}
+
+.rodape {
+    background-color: rgb(8, 21, 94);
+    text-align: center;
+    padding: -0,5px 0;
+    margin: 1px  0;
+}
+
+.rodape-img {
+    height: 90px;
+    padding: 5px  0;
 }
